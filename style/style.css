@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*  reset formattng */
+
+
+
+body, html{
+	height:100%;
+}
+/*  extra reset */
+
+
+
+/* rules of the body */
+
+
+
+header{
+	height:15vh;
+	border: 3px solid #006600;
+	padding: 50px;
+}
+/*  rules for header */
+
+
+#row{
+	margin: 0px;
+}
+
+nav{
+	height:7vh;
+	border:white 2px solid;
+	background-color: #006600;
+	padding:5px;
+}
+/* rules for navigation menu  */
+
+section.more-about-it{
+	margin-top:30px;
+	padding: 10px;
+}
+
+section.skills{
+	padding: 7px;
+}
+
+section.skills > p {
+	color: #006600;
+	font-weight: bold;
+}
+
+section.e-adress{
+	padding: 7px;
+}
+
+section.e-adress > p{
+	color: #006600;
+	font-weight: bold;
+}
+
+section#education > p{
+	color: #006600;
+	font-weight: bold;
+}
+
+section#superior > p{
+	color: #006600;
+	font-weight: bold;
+}
+
+section#voluntary > p{
+	color: #006600;
+	font-weight: bold;
+}
+
+#header > h3{
+	color:#006600;
+}
+
+#img_csr{
+	background-image: url(".././static/education.jpeg");
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+#img_uva{
+	background-image: url(".././static/uvanet.jpeg");
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+#img_edu{
+	background-image: url(".././static/edulivre.jpeg");
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+#education{
+	display:inline-block;
+	margin-top: 0px;
+	padding: 10px;
+}
+
+#superior{
+	display:inline-block;
+	margin-top: 0px;	
+	padding: 10px;
+}
+#voluntary{
+	display:inline-block;
+	margin-top: 0px;	
+	padding: 10px;
+}
+h2{
+	padding: 7px;
+	font-family: sans-serif;
+}
+ 
+li{
+	padding: 7px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	font-weight:bold;
+	color:#006600;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #006600;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: green;
+}
